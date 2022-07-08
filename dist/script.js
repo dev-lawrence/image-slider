@@ -12,6 +12,7 @@ let currentSlide = 0;
 
 // reset slide
 function reset() {
+  // arraging the slides next to each other
   slides.forEach((slide, index) => {
     slide.style.left = `${slideSize * index}px`;
   });
